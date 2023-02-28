@@ -23,6 +23,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 
 	public static WebDriver driver;
+	WebElement element;
 
 	public static void browserLauncher(String url) {
 		WebDriverManager.chromedriver().setup();
