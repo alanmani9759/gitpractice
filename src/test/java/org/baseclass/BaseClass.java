@@ -25,6 +25,10 @@ public class BaseClass {
 	public static WebDriver driver;
 	WebElement element;
 
+	private void excelWrite() {
+		System.out.println("excel write");
+	}
+
 	public static void browserLauncher(String url) {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
